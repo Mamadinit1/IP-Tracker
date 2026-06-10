@@ -1,6 +1,6 @@
 # 🌐 IP Tracker
 
-> 🇬🇧 Please feel free to leave your feedback or suggestions on this project.  
+> 🇬🇧 feel free to leave your feedback or suggestions on this project.  
 > 🇮🇷 لطفاً نظر، پیشنهاد یا بازخورد خودتون رو درباره این پروژه بنویسید.
 
 ---
@@ -76,6 +76,6 @@ index.html
 in your browser.
 ```
 
-🩵 Made With
+Made With 🩵 
 
 Pure JavaScript, CSS, and passion for frontend development
