@@ -46,14 +46,15 @@ This project automatically detects your public IP address and displays detailed 
 
 ## 📂 Project Structure
 
+```text
 IP-Tracker/
-│
 ├── index.html
 ├── styles/
-│ └── app.css
+│   └── app.css
 ├── script/
-│ └── app.js
+│   └── app.js
 └── preview.png
+```
 
 ---
 
@@ -73,8 +74,8 @@ Then open:
 index.html
 
 in your browser.
+```
 
 🩵 Made With
 
 Pure JavaScript, CSS, and passion for frontend development
-```
