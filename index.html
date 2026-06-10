@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Check Ip</title>
     <link rel="stylesheet" href="styles/app.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"
+    />
   </head>
   <body>
     <section class="hero">
       <div class="hero-content">
         <span class="badge">🌍 IP TRACKER</span>
-
         <h1>Discover Location Information From Any IP Address</h1>
-
         <p>
-          Enter an IP address and instantly retrieve location details and
-          geographical information.
+          Discover your location, country, continent, and public IP address with
+          a single click.
         </p>
       </div>
 
@@ -24,28 +26,25 @@
           <div class="cardHeader">Live Result</div>
           <button class="searchBtn">🌍 TRACK IP</button>
         </div>
-
-        <div class="infoBox">
-          <span>📍 City</span>
-          <strong>Tehran</strong>
-        </div>
-
         <div class="infoBox">
           <span>🌎 Country</span>
-          <strong>Iran</strong>
+          <strong id="countryV">Iran</strong>
         </div>
-
+        <div class="infoBox">
+          <span>📍 City</span>
+          <strong id="cityV">Tehran</strong>
+        </div>
         <div class="infoBox">
           <span>🗺️ Continent</span>
-          <strong>Asia</strong>
+          <strong id="continentV">Asia</strong>
         </div>
-
         <div class="infoBox">
           <span>🔗 IP</span>
-          <strong>185.126.xxx.xxx</strong>
+          <strong id="ipAddressV">185.126.xxx.xxx</strong>
         </div>
       </div>
     </section>
+
     <script src="script/app.js"></script>
   </body>
 </html>
